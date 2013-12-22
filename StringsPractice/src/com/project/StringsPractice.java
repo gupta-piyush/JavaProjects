@@ -18,6 +18,7 @@ public class StringsPractice {
 	static boolean isSubstring(String a, String b){
 		if(b.length()>a.length())
 			return false;
+		//Adding a new line to test for commits.
 		char[] newa = a.toCharArray();
 		char[] newb = b.toCharArray();
 		int index=0, nextIndex=0, count = 0,j=0;
